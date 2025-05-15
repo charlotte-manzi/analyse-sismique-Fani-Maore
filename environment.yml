@@ -1,0 +1,15 @@
+name: sismique-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - jupyter
+  - ipywidgets
+  - voila
