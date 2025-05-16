@@ -3,13 +3,14 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - pandas
   - numpy
+  - pandas
   - matplotlib
   - seaborn
   - scikit-learn
   - scipy
-  - statsmodels
-  - jupyter
   - ipywidgets
   - voila
+  - pip
+  - pip:
+    - ipympl

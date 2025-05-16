@@ -1,23 +1,17 @@
-# Analyse sismique
+# Analyse Sismique
 
-Ce projet contient des outils pour l'analyse des caractéristiques sismiques, développés dans le cadre de mon travail de recherche.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/{charlotte-manzi}/{analyse-sismique-Fani-Maore}/main?urlpath=voila%2Frender%2Fnotebooks%2F{Analyse%20Seisme}.ipynb)
 
-## Fonctionnalités
+Cliquez sur le bouton "launch binder" ci-dessus pour accéder aux tableaux de bord interactifs.
 
-- Clustering de données sismiques pour identifier des groupes similaires
-- Régression multilinéaire pour expliquer l'intensité des séismes
-- Analyse en Composantes Principales (ACP)
-- Visualisations interactives des caractéristiques sismiques
+## À propos
 
-## Structure du projet
+Cette application permet d'explorer et d'analyser les caractéristiques sismiques à travers plusieurs tableaux de bord interactifs:
+- Distribution des magnitudes et profondeurs
+- Analyse spatiale et temporelle
+- Clustering des données sismiques
+- Modèles de régression
 
-- `scripts/` : Contient les scripts Python d'analyse
-- `notebooks/` : Contient les notebooks Jupyter interactifs
-- `data/` : Fichiers de données (si applicable)
+## Utilisation
 
-## Installation
-
-Pour utiliser ce code, installez les dépendances requises:
-
-```bash
-pip install -r requirements.txt
+Le chargement initial peut prendre 1-2 minutes. Une fois chargé, tous les tableaux de bord interactifs seront accessibles directement dans votre navigateur sans installation.
